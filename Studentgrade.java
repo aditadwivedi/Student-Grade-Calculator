@@ -50,6 +50,7 @@ public class Studentgrade {
 
         System.out.println("Enter your 5 subjects mark one by one ");
         Scanner sc = new Scanner(System.in);
+        
 
         System.out.print("Subject 1 : ");
         int s1 = sc.nextInt();
@@ -61,7 +62,7 @@ public class Studentgrade {
         int s4 = sc.nextInt();
         System.out.print("Subject 5 : ");
         int s5 = sc.nextInt();
-
+        sc.close();
         calculate(s1, s2, s3, s4, s5);        
     }
 }
